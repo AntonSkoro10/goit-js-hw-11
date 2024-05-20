@@ -38,7 +38,7 @@ function searchFormSubmit(event) {
           color: 'red'
         });
         loader.classList.add('is-hidden');
-        return;
+        return
       }
       galleryElement.innerHTML = markupItem(imagesData.hits);
       const lightbox = new SimpleLightbox('.gallery a', {
